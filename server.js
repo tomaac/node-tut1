@@ -67,6 +67,13 @@
     });
 
 
+    app.get('/projects', function(req,res){
+      res.render('projects.hbs', {
+          title : 'projects page',
+      });
+    });
+
+
 
 
 
